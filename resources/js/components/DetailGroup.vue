@@ -29,7 +29,7 @@ export default {
             return this.last ? [] : ['border-b border-50 pb-4 mb-4'];
         },
         titleStyle() {
-            return ['pb-4', 'border-b', 'border-gray-100', 'dark:border-gray-700'];
+            return ['flex','pb-4', 'border-b', 'border-gray-100', 'dark:border-gray-700'];
         }
     }
 }
