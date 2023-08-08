@@ -59,7 +59,6 @@
     "scripts": {
         "psalm": "psalm --find-unused-psalm-suppress --output-format=phpstorm",
         "psalm-update-baseline": "psalm --set-baseline=psalm-baseline.xml",
-        "test": "phpunit --colors=always tests",
         "fix-style": "./vendor/bin/pint"
     }
 }
